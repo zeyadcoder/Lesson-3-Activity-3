@@ -9,7 +9,8 @@ def Date(start_date, end_date):
     random_time = start_time + random_generator * (end_time - start_time)
     random_date = time.strftime(Date_format, time.localtime(random_time))
     return random_date
-print(Date("4/3/23", "6/8/25")) 
+print(Date("4/3/22", "6/8/25")) 
+
 
 
 
